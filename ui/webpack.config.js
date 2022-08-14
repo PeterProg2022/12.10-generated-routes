@@ -51,12 +51,12 @@ const browserConfig = {
 
 const serverConfig = {
   mode: 'production',
-  entry: { server: ['./api/index.js'] },
+  entry: { server: ['./server/index.js'] },
   target: 'node',
   externals: [nodeExternals()],
   output: {
     filename: 'index.js',
-    path: path.resolve(__dirname, 'dist'),
+    path: path.resolve(__dirname, 'api'),
     publicPath: '/',
   },
   module: {
