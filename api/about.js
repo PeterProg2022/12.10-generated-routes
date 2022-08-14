@@ -6,6 +6,7 @@ function setMessage(_, { message }) {
 }
 
 function getMessage() {
+  console.log('getMessage');
   return aboutMessage;
 }
 
