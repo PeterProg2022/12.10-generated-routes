@@ -24,7 +24,7 @@ const resolvers = {
 
 const server = new ApolloServer({
   // typeDefs: fs.readFileSync('schema.graphql', 'utf-8'),
-  typeDefs: fs.readFileSync(path.join(process.cwd(), 'server', 'schema.graphql'), 'utf-8'),
+  typeDefs: fs.readFileSync(path.join(process.cwd(), 'api', 'schema.graphql'), 'utf-8'),
   resolvers,
   formatError: (error) => {
     console.log(error);
