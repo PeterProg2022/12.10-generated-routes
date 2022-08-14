@@ -22,7 +22,7 @@ npm install express@4
 
 ### Express
 ```
-node server.js
+node index.js
 npm start
 ```
 
