@@ -19,7 +19,7 @@ type Issue {
   description: String
 }
 
-"Toned down Issue, used as inputs, without server generated values."
+"Toned down Issue, used as inputs, without api generated values."
 input IssueInputs {
   title: String!
   "Optional, if not supplied, will be set to 'New'"

@@ -51,7 +51,7 @@ const browserConfig = {
 
 const serverConfig = {
   mode: 'production',
-  entry: { server: ['./server/uiserver.js'] },
+  entry: { server: ['./api/index.js'] },
   target: 'node',
   externals: [nodeExternals()],
   output: {

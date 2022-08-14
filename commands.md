@@ -195,7 +195,7 @@ cd ui
 mkdir browser
 mkdir server
 mv src/App.jsx browser
-mv uiserver.js server
+mv index.js server
 cp src/.babelrc browser
 ```
 
