@@ -4,7 +4,7 @@ export default function template(body, data) {
 
 <head>
   <meta charset="utf-8">
-  <title>Pro MERN Stack</title>
+  <title>Pro MERN Stack - SERVER</title>
   <link rel="stylesheet" href="/bootstrap/css/bootstrap.min.css" >
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
